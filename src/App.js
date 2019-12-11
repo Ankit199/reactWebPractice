@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import HomepageImage from './components/HomepageImage'
+import Sharedheader from './components/sharedheader'
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      <HomepageImage />
+   
+    <div className="container-fluid">
+      <Sharedheader />
         <p>
         My first React website! :) VillagerBoy
         </p>
@@ -17,8 +17,7 @@ function App() {
         >
           Learn React
         </a>
-      </header>
-    </div>
+        </div>
   );
 }
 
