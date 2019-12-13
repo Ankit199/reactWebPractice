@@ -71,17 +71,19 @@ function Sharedheader() {
                                   </div>
                               </li>
 
-                               <li className="nav-item">
+                               {/* <li className="nav-item"> */}
                                {/* <a className="nav-link" href="study-group.html">Login&SignUp</a> */}
-                               <Link className="nav-link" to={`/Login`}>Login&SignUp</Link>
-                              </li>
+                               {/* <Link className="nav-link" to={`/Login`}>Login&SignUp</Link>
+                              </li> */}
                                <li className="nav-item dropdown">
                                   <a className="nav-link dropdown-toggle" href="#" id="A4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                  Feed Back
+                                 Account
                                   </a>
                                   <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                                      <a className="dropdown-item" href="about-feedback.html">About TLA</a>
-                                      <a className="dropdown-item" href="about-test.html">About Tests</a>
+                                    
+                                      <Link className="dropdown-item" to={`/login`}>Login</Link>
+                                      <Link className="dropdown-item" to={`/signup`}>Sign-Up</Link>
+                                     
                                       
                                   </div>
                               </li>
