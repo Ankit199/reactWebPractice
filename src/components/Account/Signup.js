@@ -52,7 +52,7 @@ function Signup() {
     </form>
 	<div className="text-center">Already have an account? 
     
-    <Link className="clickherecolr" exact to={`/Login`}>Sign in</Link>
+    <Link className="clickherecolr" exact="true" to={`/login`}>Sign in</Link>
     </div>
 </div>
     

@@ -10,7 +10,7 @@ return(
       <div className="row justify-content-between">
           <div className="col-sm-6 col-md-4 col-xl-3">
               <div className="single-footer-widget footer_1">
-                  <a href="index.html"> <img src="img/logonew.png" alt=""/> </a>
+                  <a href="index.html"> <img src="../img/logonew.png" alt=""/> </a>
                   <p>But when shot real her. Chamber her one visite removal six
                       sending himself boys scot exquisite existend an </p>
                   <p>But when shot real her hamber her </p>

@@ -11,7 +11,7 @@ function Sharedheader() {
       <div className="row align-items-center">
       <div className="col-lg-12">
      <nav className="navbar navbar-expand-lg navbar-light">
-     <a className="navbar-brand" href="index.html"> <img src="img/logonew.png" alt="logo"/> </a>
+     <a className="navbar-brand" href="index.html"> <img src="../img/logonew.png" alt="logo"/> </a>
      <button className="navbar-toggler" type="button" data-toggle="collapse"
                           data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                           aria-expanded="false" aria-label="Toggle navigation">
