@@ -1,5 +1,7 @@
 import React from 'react';
-import { Link, Route } from "react-router-dom"
+import { Link, withRouter } from "react-router-dom"
+
+
 function Sharedheader() {
   
   return (
@@ -71,9 +73,9 @@ function Sharedheader() {
                                   </div>
                               </li>
 
-                               {/* <li className="nav-item"> */}
-                               {/* <a className="nav-link" href="study-group.html">Login&SignUp</a> */}
-                               {/* <Link className="nav-link" to={`/Login`}>Login&SignUp</Link>
+                               {/* <li className="nav-item"> */
+                               /* <a className="nav-link" href="study-group.html">Login&SignUp</a> */
+                               /* <Link className="nav-link" to={`/Login`}>Login&SignUp</Link>
                               </li> */}
                                <li className="nav-item dropdown">
                                   <a className="nav-link dropdown-toggle" href="#" id="A4" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -102,4 +104,4 @@ function Sharedheader() {
   );
 }
 
-export default Sharedheader;
+export default withRouter(Sharedheader);

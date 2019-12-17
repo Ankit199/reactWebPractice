@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link } from 'react-router-dom'
+import {Link ,withRouter} from 'react-router-dom'
 function Login() {
   
   return (
@@ -13,7 +13,7 @@ function Login() {
      <h2>Login</h2>
      <p>
          {/* <a href="index.html" className="clickherecolr"> Home</a> */}
-         <Link className="clickherecolr" exact to={`/`}>Home</Link>
+         <Link className="clickherecolr"  to={`/`}>Home</Link>
          <span>/ Login</span></p>
      </div>
    </div>
@@ -74,4 +74,4 @@ function Login() {
   )
 }
 
-export default Login;
+export default withRouter(Login);
